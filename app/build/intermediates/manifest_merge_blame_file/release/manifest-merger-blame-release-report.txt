@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.foodorderapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:7:5-42:19
+14        android:allowBackup="true"
+14-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ff37b710ecf84191a2687617c776753e\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/azmart"
+17-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:9:9-38
+18        android:label="AZ-MART"
+18-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:10:9-32
+19        android:roundIcon="@mipmap/azmart"
+19-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:11:9-43
+20        android:supportsRtl="true"
+20-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/Theme.FoodOrderApp" >
+21-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:13:9-50
+22        <activity
+22-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:14:9-20:20
+23            android:name="com.android.foodorderapp.singupactivity"
+23-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:15:13-43
+24            android:exported="false" >
+24-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:16:13-37
+25            <meta-data
+25-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
+26                android:name="android.app.lib_name"
+26-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
+27                android:value="" />
+27-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
+28        </activity>
+29        <activity
+29-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:21:9-27:20
+30            android:name="com.android.foodorderapp.singup"
+30-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:22:13-35
+31            android:exported="false" >
+31-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:23:13-37
+32            <meta-data
+32-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
+33                android:name="android.app.lib_name"
+33-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
+34                android:value="" />
+34-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
+35        </activity>
+36        <activity android:name="com.android.foodorderapp.OrderSucceessActivity" />
+36-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:28:9-59
+36-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:28:19-56
+37        <activity android:name="com.android.foodorderapp.PlaceYourOrderActivity" />
+37-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:29:9-60
+37-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:29:19-57
+38        <activity android:name="com.android.foodorderapp.RestaurantMenuActivity" />
+38-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:30:9-60
+38-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:30:19-57
+39        <activity android:name="com.android.foodorderapp.SplashActivity" />
+39-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:31:9-52
+39-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:31:19-49
+40        <activity android:name="com.android.foodorderapp.LogingActivity" >
+40-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:32:9-40:20
+40-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:32:19-49
+41
+42            <!-- <activity android:name=".SplashActivity"> -->
+43            <intent-filter>
+43-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:35:13-39:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:36:17-69
+44-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:36:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:38:17-77
+46-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:38:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.android.foodorderapp.MainActivity" />
+49-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:41:9-50
+49-->C:\Users\Asus\AndroidStudioProjects\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:41:19-47
+50    </application>
+51
+52</manifest>
